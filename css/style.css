@@ -7,6 +7,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 /* todo: UTILS  */
 
 a:link,
@@ -144,15 +148,38 @@ a:hover {
 
 /* MAIN */
 
-main section {
-  background-color: #fff;
-  padding: 60px 0;
+main {
+  /* padding: 60px 0;
+  background-color: #d3d3d3; */
 }
 
-main section:nth-child(even) {
+main section {
+  background-color: #fff;
+  padding: 60px 0 0 0;
+}
+
+main section:nth-of-type(even) {
   background-color: #d3d3d3;
 }
 
+svg {
+  display: block;
+}
+
+.wave {
+  /* background-image: url('../img/wave.svg');
+  background-size: contain;
+  background-repeat: no-repeat; */
+  /* transform: scale(-1, 1); */
+  margin-top: 20px;
+  color: #d3d3d3;
+  transform: scale(1.5);
+}
+
+.wave-alt {
+  color: #ffffff;
+  transform: scale(-1, 1);
+}
 
 .main-content {
   flex-basis: 60%;
@@ -179,6 +206,11 @@ main section:nth-child(even) {
 .big.wrapper .top {
   text-align: center;
 }
+
+.big.wrapper .bottom {
+  padding-bottom: 30px;
+}
+
 
 
 .big.wrapper .bottom .title {

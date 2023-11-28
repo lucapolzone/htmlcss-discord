@@ -148,10 +148,6 @@ a:hover {
 
 /* MAIN */
 
-main {
-  /* padding: 60px 0;
-  background-color: #d3d3d3; */
-}
 
 main section {
   background-color: #fff;
@@ -210,8 +206,6 @@ svg {
 .big.wrapper .bottom {
   padding-bottom: 30px;
 }
-
-
 
 .big.wrapper .bottom .title {
   font-size: 2rem;

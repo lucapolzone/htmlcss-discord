@@ -7,6 +7,18 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* todo: UTILS  */
+
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 /*NAV & HEADER*/
 
@@ -51,15 +63,6 @@
   margin: 0 10px;
 }
 
-#wrapper-nav li a:link,
-#wrapper-nav li a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#wrapper-nav li a:hover {
-  text-decoration: underline;
-}
 
 .login {
   display: flex;
@@ -204,7 +207,6 @@ main section:nth-child(even) {
 footer {
   background-color: #23272a;
   padding-top: 10px;
-  color: #ffffff;
 }
 
 footer section:first-child {
@@ -232,6 +234,7 @@ footer #social .container {
   display: flex;
   width: fit-content;
   align-items: center;
+  color: #ffffff;
 }
 
 footer #social img {

@@ -151,6 +151,54 @@ main section:nth-child(even) {
 }
 
 
+.main-content {
+  flex-basis: 60%;
+  padding: 60px 0;
+  height: 600px;
+  /* background-color: #1e90ff; */
+}
+
+.sidebar {
+  flex-basis: 40%;
+  padding: 30px 100px;
+  height: 600px;
+  /* background-color: #ffc0cb; */
+}
+
+.big.wrapper {
+  /* background-color: green; */
+  height: 900px;
+  max-width: 1110px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big.wrapper .top {
+  text-align: center;
+}
+
+
+.big.wrapper .bottom .title {
+  font-size: 2rem;
+  padding: 40px;
+  background-image: url('../img/stars.svg');
+  background-repeat: no-repeat;
+}
+
+.button.darkslateblue {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #8ea1e1;
+  color: #ffffff;
+}
+
+
+.item1,
+.item2 {
+  width: 80%;
+}
+
+
 
 
 /* FOOTER */

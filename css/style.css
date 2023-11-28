@@ -199,7 +199,92 @@ main section:nth-child(even) {
 }
 
 
-
-
 /* FOOTER */
 
+footer {
+  background-color: #23272a;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+footer section:first-child {
+  padding-bottom: 20px;
+}
+
+footer .wrapper.top {
+  border-bottom: 2px solid #8ea1e1;
+}
+
+footer .sidebar {
+  flex-basis: 30%;
+  padding: 30px 0;
+  height: 450px;
+}
+
+footer #social .title {
+  width: 300px;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #8ea1e1;
+}
+
+footer #social .container {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+footer #social img {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.rotate {
+  display: inline-block;
+  transform: rotate(90deg);
+  padding-left: 4px;
+}
+
+footer .grid {
+  flex-basis: 70%; 
+  /* height: 600px; */
+  display: flex;
+  padding: 23px 0;
+}
+
+footer .grid .column {
+  flex-basis: 25%;
+}
+
+footer .grid .column .title {
+  color: #8ea1e1;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+footer .grid .column li {
+  list-style-type: none;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+footer .bottom {
+  height: 120px;
+  padding-bottom: 40px;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+footer .bottom div {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+footer .bottom .button.darkslateblue {
+  padding: 10px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}

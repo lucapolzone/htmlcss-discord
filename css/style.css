@@ -12,7 +12,7 @@
 
 #header-top {
   padding: 30px 0;
-  background-color: #3161e0;
+  background-color: #255ee9;
 }
 
 #wrapper-nav {
@@ -51,36 +51,93 @@
   margin: 0 10px;
 }
 
+#wrapper-nav li a:link,
+#wrapper-nav li a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#wrapper-nav li a:hover {
+  text-decoration: underline;
+}
+
 .login {
   display: flex;
   justify-content: flex-end;
 }
 
-.login #button {
-  display: flex;
-  flex-basis: 80px;
-  background-color: #fff;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  height: 42px;
-  color: #000000;
+.login .button {
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 
+/* "JUMBOTRON" */
+
 #header-bottom {
-  padding: 60px 0;
-  background-color: #00008b;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
 }
 
 #header-bottom .wrapper {
   margin: 0 auto;
-  max-width: 60%;
-  height: 400px;
-  /* height: 30%; */
-  background-color: #ee82ee;
+  max-width: 55%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+#header-bottom .wrapper h1 {
+  font-size: 3.5rem;
+}
+
+.title {
+  font-size: 3.3rem;
+}
+
+/* #header-bottom .wrapper  */
+.caption {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 40px 0 20px 0;
+}
+
+.wrapper#btn {
+  display: flex;
+  width: 60%;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #fff;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+#header-bottom .button:last-child {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+.down-arrow::before {
+  content: "\2193 \00A0";
+}
+
+
+.wrapper {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+}
 
 /* MAIN */
 
@@ -93,82 +150,8 @@ main section:nth-child(even) {
   background-color: #d3d3d3;
 }
 
-.wrapper {
-  display: flex;
-  max-width: 80%;
-  margin: 0 auto;
-}
 
-.main-content {
-  flex-basis: 60%;
-  padding: 60px 0;
-  height: 600px;
-  background-color: #1e90ff;
-}
-
-.sidebar {
-  flex-basis: 40%;
-  padding: 60px 0;
-  height: 600px;
-  background-color: #ffc0cb;
-}
-
-.big.wrapper {
-  background-color: green;
-  height: 900px;
-}
 
 
 /* FOOTER */
 
-
-footer {
-  background-color: #23272a;
-  padding-top: 10px;
-}
-
-footer section:first-child {
-  border-bottom: 2px solid #d3d3d3;
-  padding-bottom: 20px;
-}
-
-
-footer .wrapper {
-  display: flex;
-}
-
-footer .sidebar {
-  flex-basis: 30%;
-}
-
-footer #social {
-  background-color: #f08080;
-}
-
-footer .grid {
-  flex-basis: 70%; 
-  background-color: #20b2aa;
-  height: 600px;
-  display: flex;
-}
-
-footer .grid .column {
-  flex-basis: 25%;
-  border: 2px dashed #ffffff;
-
-}
-
-footer .bottom {
-  height: 80px;
-  margin-top: 20px;
-  justify-content: center;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #7fffd4;
-}
-
-footer .bottom div {
-  padding: 10px;
-  background-color: #ffb6c1;
-  font-size: 1.2rem;
-}

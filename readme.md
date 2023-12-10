@@ -8,7 +8,7 @@ https://github.com/TizianoN/117-discord-blocchi
 In entrambi i casi la procedura è: <br>
 - Scarico il file zip
 - Lo estraggo (controllando che non ci siano sottocartelle indesiderate)
-- Lo apro in VSCode e oubblico il nuovo progetto con il nome `htmlcss-discord`
+- Lo apro in VSCode e pubblico il nuovo progetto con il nome `htmlcss-discord`
 
 
 ## Descrizione
